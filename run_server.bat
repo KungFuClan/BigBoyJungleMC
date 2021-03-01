@@ -19,7 +19,7 @@ set discordURL=https://discord.com/api/webhooks/815122326520987679/BXMNpn8woJM5f
 set onlineMessage="MC Server is live at %externalIP% - Come join!"
 set offlineMessage="MC Server at %externalIP% is offline."
 curl -X POST -d content=%onlineMessage% %discordURL%
-call java -Xmx3G -Xms3G -jar server.jar /wait
+call java -Xmx3G -Xms3G -jar server.jar -nogui /wait
 curl -X POST -d content=%offlineMessage% %discordURL%
 del save.lock
 for /F "tokens=2" %%i in ('date /t') do set exitdate=%%i
