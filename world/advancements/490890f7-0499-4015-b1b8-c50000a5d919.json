@@ -401,6 +401,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2021-03-03 00:56:22 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_the_recipe": "2021-03-01 01:09:05 -0600"
@@ -3037,6 +3043,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2021-03-03 00:55:18 -0600",
+      "minecraft:creeper": "2021-03-02 23:59:29 -0600",
       "minecraft:zombie": "2021-03-01 02:04:56 -0600"
     },
     "done": false
@@ -3603,6 +3611,7 @@
     "criteria": {
       "minecraft:forest": "2021-03-01 01:20:23 -0600",
       "minecraft:desert": "2021-03-01 01:07:01 -0600",
+      "minecraft:savanna_plateau": "2021-03-03 00:25:18 -0600",
       "minecraft:wooded_hills": "2021-03-01 01:16:12 -0600",
       "minecraft:savanna": "2021-03-01 01:20:17 -0600",
       "minecraft:plains": "2021-03-01 01:05:38 -0600"
