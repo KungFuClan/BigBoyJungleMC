@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2021-03-03 23:46:08 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2021-02-28 21:50:57 -0600"
@@ -395,6 +401,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2021-03-03 22:58:37 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2021-02-28 22:42:07 -0600"
@@ -514,7 +526,8 @@
       "minecraft:zombified_piglin": "2021-02-28 23:29:40 -0600",
       "minecraft:wither_skeleton": "2021-02-28 23:34:10 -0600",
       "minecraft:husk": "2021-02-28 22:23:15 -0600",
-      "minecraft:zombie": "2021-02-28 21:46:24 -0600"
+      "minecraft:zombie": "2021-02-28 21:46:24 -0600",
+      "minecraft:zombie_villager": "2021-03-04 00:01:31 -0600"
     },
     "done": false
   },
@@ -527,6 +540,12 @@
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2021-03-01 23:12:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2021-03-03 23:02:07 -0600"
     },
     "done": true
   },
@@ -1144,6 +1163,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2021-03-03 22:58:37 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2021-02-28 21:50:57 -0600"
@@ -1276,6 +1301,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2021-03-03 22:58:37 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2021-03-01 01:12:21 -0600"
@@ -1339,6 +1370,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2021-02-28 21:50:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2021-03-03 22:58:37 -0600"
     },
     "done": true
   },
@@ -1477,6 +1514,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2021-02-28 23:28:20 -0600",
+      "cooked_beef": "2021-03-04 00:00:56 -0600",
       "bread": "2021-02-28 21:49:21 -0600",
       "rotten_flesh": "2021-02-28 21:20:05 -0600",
       "cooked_salmon": "2021-02-28 22:40:22 -0600"
@@ -1865,6 +1903,12 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2021-02-28 23:31:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2021-03-03 23:46:08 -0600"
     },
     "done": true
   },
@@ -2360,6 +2404,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2021-03-03 23:02:07 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-02-28 21:50:57 -0600"
@@ -2369,6 +2419,18 @@
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_brick": "2021-02-28 23:32:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2021-03-03 23:46:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2021-03-03 23:48:19 -0600"
     },
     "done": true
   },
@@ -2498,9 +2560,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2021-03-03 22:58:37 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-03-03 02:01:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2021-03-03 23:02:07 -0600"
     },
     "done": true
   },

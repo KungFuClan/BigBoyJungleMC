@@ -827,6 +827,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2021-03-04 01:56:29 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_the_recipe": "2021-03-01 01:09:05 -0600"
@@ -3043,6 +3049,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2021-03-04 01:13:01 -0600",
       "minecraft:spider": "2021-03-03 00:55:18 -0600",
       "minecraft:creeper": "2021-03-02 23:59:29 -0600",
       "minecraft:zombie": "2021-03-01 02:04:56 -0600"
@@ -3610,6 +3617,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2021-03-01 01:20:23 -0600",
+      "minecraft:desert_hills": "2021-03-04 02:26:12 -0600",
       "minecraft:desert": "2021-03-01 01:07:01 -0600",
       "minecraft:savanna_plateau": "2021-03-03 00:25:18 -0600",
       "minecraft:wooded_hills": "2021-03-01 01:16:12 -0600",
@@ -4471,6 +4479,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2021-03-04 01:51:08 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-01 01:09:05 -0600"
@@ -4786,6 +4800,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
     "criteria": {
       "has_the_recipe": "2021-03-01 01:09:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-03-04 01:38:18 -0600"
     },
     "done": true
   },
