@@ -15,12 +15,12 @@ if exist save.lock (
 	git push
 )
 for /F %%I in ('curl ifconfig.me') do set externalIP=%%I
-set discordURL=https://discord.com/api/webhooks/815122326520987679/BXMNpn8woJM5faksL_kcnpKNlwAu2xToLNNcXQjrO8UjTA86BIqoIAVR1mULCHmSiAfa
-set onlineMessage="MC Server is live at %externalIP% - Come join!"
-set offlineMessage="MC Server at %externalIP% is offline."
-curl -X POST -d content=%onlineMessage% %discordURL%
+REM set discordURL=https://discord.com/api/webhooks/815122326520987679/BXMNpn8woJM5faksL_kcnpKNlwAu2xToLNNcXQjrO8UjTA86BIqoIAVR1mULCHmSiAfa
+REM set onlineMessage="MC Server is live at %externalIP% - Come join!"
+REM set offlineMessage="MC Server at %externalIP% is offline."
+REM curl -X POST -d content=%onlineMessage% %discordURL%
 call java -Xmx1G -Xms1G -jar server.jar -nogui /wait
-curl -X POST -d content=%offlineMessage% %discordURL%
+REM curl -X POST -d content=%offlineMessage% %discordURL%
 del save.lock
 for /F "tokens=2" %%i in ('date /t') do set exitdate=%%i
 set exittime=%time%
